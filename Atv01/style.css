@@ -1,8 +1,20 @@
+body {
+    background-color: #FDE2F3;
+}
+
 h1 {
     color: crimson
 }
 
+h5 {
+    color: crimson;
+}
+
 p {
     font-weight: bold
+}
+
+input {
+    background-color: #FDE2F3;
 }
 
