@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parquímetro</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="py-5"> <!-- posicionamento atráves do bootstrap -->
+    <h1 class="text-center">Programa Parquímetro</h1> <!-- título -->
+    <p class="text-white">'</p> <!-- espacinho -->
+
+    <div class="text-center" id="img-topo">
+        <img src="https://64.media.tumblr.com/0eb3d6dd47b8191185eacf806f0d1d6b/8dd3790f9edff521-54/s400x600/3b41ca99ec5c9733dc674c2d45757b72541c33c9.pnj" class = "img-fluid mt-2 mb-3" alt="IFPR" width="200px">
+    </div>
+
+    <div class="text-center">
+        <h5>Valores:</h5>
+        <p>R$1,00 - 30 minutos</p>
+        <p>R$1,75 - 60 minutos</p>
+        <p>R$3,00 - 120 minutos</p>
+    </div>
+
+    <form>
+        <p class="text-white">'</p> <!-- espacinho -->
+        <div class="text-center">
+            <h5>Valor Inserido: </h5>
+            <input class="border border-danger border-2" type="number" step="0.1" min="0" id="inValor" required>
+        </div>
+
+        <p class="text-white">'</p> <!-- espacinho -->
+
+        <div class="text-center">
+            <button type="submit" class="btn btn-outline-danger">Verificar</button>
+        </div>
+        
+        <p class="text-white">'</p> <!-- espacinho -->
+
+        <div class="text-center">
+            <h4></h4>
+            <h5></h5>
+        </div>
+    </form>
+
+    <script src="parquimetro.js"></script>
+</body>
+
+</html>
